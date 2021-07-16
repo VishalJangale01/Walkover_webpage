@@ -1,0 +1,131 @@
+*{
+    /* border: 2px solid black; */
+    text-decoration: none;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+h3{
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+    color: rgb(92 109 93);
+}
+
+h1{
+    text-align: center;
+    margin-top: 0.5em;
+    color: rgb(92 109 93);
+}
+
+.md{
+    margin: 1em;
+    padding: 1em;
+}
+
+body{
+    font-family: cursive;
+    background-image: linear-gradient(to bottom right,rgb(255 235 59 / 22%), rgb(78 150 120 / 48%));
+}
+
+#top-image{
+        margin-top: 2em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        object-fit: cover;
+}
+
+.bg{
+        background-image: url("images/pexels-olga-lioncat-7244536.jpg");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+header{
+    background-color: black;
+   opacity: 0.6;
+}
+
+p{
+    text-align: center;
+    padding-top: 7em;
+    padding-bottom: 6em;
+    color: rgb(26 103 57);
+}
+
+form{
+    background-color: rgb(14 29 2);
+    color : white;
+    margin: auto;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+}
+  
+ul {
+    background-color:  rgb(14 29 2);
+    text-decoration: none;
+    position: sticky;
+    /* overriding user agents default setting */
+    margin-block-start: 0em;
+    margin-top: 0em;
+    top: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-inline-start: 0%;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+ a:hover#test-link{
+    background-color: rgb(255, 255, 255);
+    color: rgb(14 29 2);
+}
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(14 29 2);
+}
+
+.holdingContainer{
+    width: auto;
+    display: flex;
+    background: rgb(255, 254, 254);
+    margin: 0 auto;
+    border: 3px white;
+}
+
+.internalContainer{
+    flex: 1;
+    background: rgb(222, 238, 229);
+    padding: 30px;
+    margin: 3px;
+}
+
+.internalContainer2{
+    flex: 1;
+    background: orange;
+    padding: 30px;
+    margin: 3px;
+}
+
+.internalContainer3{
+    flex: 1;
+    background: pink;
+    padding: 30px;
+    margin: 3px;
+}
