@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
+<body>
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img  src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOGS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+
+    <div class="text-box">
+        <h1>Mountains - Magic of nature</h1>
+        <p>Nature is powerful and magical, and one of those places where you feel like you're just this tiny dot in the vast natural landscape. And somehow, this realization is accompanied by this feeling of serenity and tranquility, a beautiful sensation. From vast peaks that take days to climb to bizarrely shaped bluffs that love the camera, great mountains have little trouble making us stop and stare. Few things compare to the sense of awe you’ll feel when you’ve reached the summit of a giant.Here, we’ve picked the most beautiful mountains around the world and shared some top tips for visiting them.</p>
+    </div>
+    </section>
+    
+    <section class="middle">
+        <h1>Some wonderful mountains</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid.</p>
+        <div class="row">
+            <div class="middle-col">
+                <img src="images/1.jpg" alt="">
+                <h3>1. Matterhorn, Switzerland/Italy</h3>
+                <p>This Alpine peak spans the border between Switzerland and Italy. At 4,478 metres it’s smaller than the famed Mont Blanc (4,810 metres), but its striking pyramidal shape – not to mention its spot overlooking the cosy Swiss ski town of Zermatt – makes it the poster child for the Alps.</p>
+            </div>
+            <div class="middle-col">
+                <img src="images/2.jpg" alt="">
+                <h3>2. Denali, USA</h3>
+                <p>Mammoth Denali is the highest peak in all of North America. Craggy and snow-covered, it soars to more than 6,190 metres above sea level, rising from the stark valleys of Alaska’s Denali National Park. The mountain was once known as Mt McKinley, but after many decades of controversy, in 2016, the peak was officially dubbed Denali, a name long used by native peoples.</p>
+            </div>
+            <div class="middle-col">
+                <img src="images/3.jpg" alt="">
+                <h3>3. Kirkjufell, Iceland</h3>
+                <p>The strangely conical Kirkjufell, or “church mountain”, is often touted as Iceland’s most photographed sight. It’s not hard to see why. The yellow-green bluff looms over West Iceland’s Snæfellsnes peninsula, with pretty waterfall Kirkjufellsfoss and several sandy beaches in its wake. Such is its drama that the mountain even made a cameo in series seven of cult TV show Games of Thrones.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="middle-col">
+                <img src="images/4.jpg" alt="">
+                <h3>4. Table Mountain, South Africa</h3>
+                <p>One of the world’s most famous pinnacles, Table Mountain watches over the South African city of Cape Town from 1,085 metres at its highest point. As the name suggests, it’s known for its distinctive flat top and also for its diverse wildlife. Keep an eye out for endemic African species such as dassies: cute-as-a-button, furry mammals that look a little like plump meerkats.</p>
+            </div>
+            <div class="middle-col">
+                <img src="images/5.jpg" alt="">
+                <h3>5. Mount Fuji, Japan</h3>
+                <p>Mount Fuji is the largest peak in Japan. It tops out at a whopping 3,775 metres, and is at its best when finished with a generous hood of snow. It has great cultural significance too. The mountain has long been considered sacred, attracting centuries’ worth of pilgrims of Buddhist, Shinto and other faiths.</p>
+            </div>
+            <div class="middle-col">
+                <img src="images/6.jpg" alt="">
+                <h3>6. Mount Everest, Nepal/Tibet</h3>
+                <p>The mountain is named after lauded British surveyor Sir George Everest, though the peak already had two local titles: Chomolungma on the Tibetan side and Sagarmatha in Nepal. The first confirmed ascent to Everest’s summit was in 1953, by Nepali-Indian and British mountaineers Sherpa Tenzing and Edmund Hillary – though other climbers had already perished in previous attempts.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer>
+        <h4>---We value your suggestions---</h4>
+        <p>Do you know about some wonderful place which is imprinted in your heart and mind. You can suggest us here. <br>
+            Enter the beautiful place you want to suggest us.
+        </p>
+
+        <form action="" class="footer">
+            <label>Place</label>
+            <input type="text" class="Place" placeholder="Himalayas"><br>
+    
+            <label>Name</label>
+            <input type="text" placeholder="John"><br>
+    
+            <label>Email</label>
+            <input type="email" placeholder="abc@gmail.com"><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+
+    </footer>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display ="block";
+        }
+        function hideMenu(){
+            navLinks.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
